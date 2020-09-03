@@ -1,0 +1,21 @@
+{
+  "name": "fullstack-template",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Express Server with CRA ESL Git and Prettier",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slawoe/fullstack-template.git"
+  },
+  "keywords": [],
+  "author": "Slawomir Ernst",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slawoe/fullstack-template/issues"
+  },
+  "homepage": "https://github.com/slawoe/fullstack-template#readme"
+}
