@@ -5,6 +5,7 @@
   "description": "Express Server with CRA ESL Git and Prettier",
   "main": "server.js",
   "scripts": {
+    "postInstall": "cd client && npm install",
     "build": "cd client && npm run build",
     "test": "npm run lint && cd client && npm test",
     "prettify": "prettier --write .",
