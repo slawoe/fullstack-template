@@ -3,9 +3,10 @@
   "private": true,
   "version": "1.0.0",
   "description": "Express Server with CRA ESL Git and Prettier",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/slawoe/fullstack-template/issues"
   },
-  "homepage": "https://github.com/slawoe/fullstack-template#readme"
+  "homepage": "https://github.com/slawoe/fullstack-template#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
